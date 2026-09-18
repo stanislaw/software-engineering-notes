@@ -211,6 +211,7 @@ revising older ideas as my views change.
   - [Solving problems with cash](#solving-problems-with-cash)
   - [The paradox of rushing in software/systems engineering](#the-paradox-of-rushing-in-softwaresystems-engineering)
   - [Four seasons](#four-seasons)
+  - [Bureaucracy grows through gate events](#bureaucracy-grows-through-gate-events)
 - [Standards](#standards)
   - [Idealized standards vs. practical implementation](#idealized-standards-vs-practical-implementation)
   - [The challenge of standards implementation](#the-challenge-of-standards-implementation)
@@ -3253,6 +3254,33 @@ See also Kent Beck's
 [The Product Development Triathlon](https://medium.com/@kentbeck_7670/the-product-development-triathlon-6464e2763c46).
 His 3 phases: Explore-Expand-Extract can be loosely mapped to the
 Spring-Summer-Autumn seasons.
+
+### Bureaucracy grows through gate events
+
+Young companies often start with flexible processes. People discuss problems
+directly, make decisions quickly, and rely on a shared understanding.
+
+This flexibility usually decreases through a sequence of gate events.
+
+One type of gate event is a serious failure. Something goes badly wrong, so the
+company introduces a policy, an approval step, a review, or a new department.
+The new gate should prevent the same failure from happening again.
+
+Another type happens when informal communication stops working. Telling everyone
+something in a conversation is no longer enough. People remember different
+versions, understand them differently, or disagree about what was decided. The
+company responds with written rules and formal procedures.
+
+Each response may be reasonable on its own. The company does not decide to
+become bureaucratic. It gradually accumulates barriers in response to real
+problems.
+
+These barriers rarely disappear when the original problem disappears. The
+company keeps most of them and adds new ones after the next failure or
+misunderstanding.
+
+This is how a flexible company can become bureaucratic without anyone explicitly
+choosing that direction.
 
 ## Standards
 
