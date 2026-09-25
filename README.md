@@ -74,6 +74,7 @@ revising older ideas as my views change.
   - [Avoid "us vs. them". Use names instead.](#avoid-us-vs-them-use-names-instead)
   - [Write messages so they can be forwarded directly](#write-messages-so-they-can-be-forwarded-directly)
   - [Prefer direct statements over contrastive statements](#prefer-direct-statements-over-contrastive-statements)
+  - [Move from opinions to well-founded technical judgments](#move-from-opinions-to-well-founded-technical-judgments)
 - [Meetings](#meetings)
   - [Direct the meeting instead of letting it drift](#direct-the-meeting-instead-of-letting-it-drift)
   - [Sound check](#sound-check)
@@ -1240,6 +1241,28 @@ process two ideas where one would be enough.
 
 A text becomes easier to follow when the main narrative is built from direct
 statements. Add contrasts only when they help explain an important distinction.
+
+### Move from opinions to well-founded technical judgments
+
+Ground your technical judgments in relevant experience, evidence, and the
+constraints of the problem. When you state a judgment, explain what supports it
+and where you are unsure. When you listen to someone else's judgment, ask what
+supports it before you accept or dismiss it.
+
+People come to a discussion with different levels of knowledge about the
+problem. One person's judgment may draw on the system's history, previous team
+work and discussions, and trade-offs that another person does not yet know
+about. Give weight to that knowledge. At the same time, stay open to new
+evidence from a less informed person.
+
+If a discussion becomes a debate about who has which "opinion," pause and return
+to the technical question. Ask:
+
+- What do we know?
+- What have we tried before?
+- Which part of the reasoning do we disagree on?
+
+These questions help us examine the judgments instead of comparing opinions.
 
 ## Meetings
 
