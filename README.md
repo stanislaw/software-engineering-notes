@@ -2926,34 +2926,31 @@ great option, as these languages integrate well with embedded environments.
 
 ### Make good use of distributions
 
-When you receive someone else's distribution, inspect its contents promptly.
-Record its main features and share what you find with the team. Identify which
-parts can help unblock ongoing work.
+When you receive someone else's distribution, inspect its contents promptly. Record:
+
+- what the distribution contains
+- its main features and properties
+- which parts can unblock the team's current work.
+
+Share the findings with the team. Tell the relevant people about the findings
+that concern them.
 
 Distributions often take a long time to arrive. Communication through several
 people, readiness issues, and project dependencies can delay delivery. When a
-distribution finally arrives, everyone may be busy with other work. The package
-can then sit unopened for a long time.
+distribution finally arrives, everyone may be busy with other work. The
+distribution can then sit unopened for a long time.
 
 A distribution may contain components for flight functions and resources for
-development, integration, simulation, testing, and operations. Some of these
-parts may already answer questions or solve problems that block the team. Until
-someone explores the package, the people who need those parts may not know they
+development, integration, simulation, testing, and operations. Some parts may
+already answer questions or solve problems that block the team. Until someone
+inspects the distribution, the people who need these parts may not know they
 exist.
 
-Treat the receipt of a distribution as a trigger for an initial inspection. Have
-someone record:
+The inspection applies the principle of [quick exploration](#quick-exploration):
+even a basic understanding of what you have can unblock progress.
 
-- What the distribution contains.
-- Its main features and properties.
-- Which parts support the team's current work.
-- Which findings the relevant people need to know about.
-
-This follows the principle of quick exploration: even a basic understanding of
-what you have can unblock progress.
-
-If the team skips this inspection, missing knowledge can create bottlenecks.
-People may keep requesting information or artifacts that the supplier has
+If the team skips the inspection, missing knowledge can create bottlenecks.
+People may continue to request information or artifacts that the supplier
 already provided.
 
 ## Documentation
