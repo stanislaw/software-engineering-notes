@@ -193,6 +193,7 @@ revising older ideas as my views change.
   - [Provide basic test sequences with your product](#provide-basic-test-sequences-with-your-product)
   - [Provide drivers alongside your hardware](#provide-drivers-alongside-your-hardware)
   - [Provide simulators alongside your hardware](#provide-simulators-alongside-your-hardware)
+  - [Make good use of distributions](#make-good-use-of-distributions)
 - [Documentation](#documentation)
   - [Documentation as a workspace, not just documentation](#documentation-as-a-workspace-not-just-documentation)
   - [The illusion of easy documentation](#the-illusion-of-easy-documentation)
@@ -2922,6 +2923,38 @@ devices (such as when the device is very expensive).
 For language choice, default to Python, as it is widely used for embedded
 development tools. If performance is critical, a C/C++/Rust simulator is also a
 great option, as these languages integrate well with embedded environments.
+
+### Make good use of distributions
+
+When you receive someone else's distribution, inspect its contents promptly.
+Record its main features and share what you find with the team. Identify which
+parts can help unblock ongoing work.
+
+Distributions often take a long time to arrive. Communication through several
+people, readiness issues, and project dependencies can delay delivery. When a
+distribution finally arrives, everyone may be busy with other work. The package
+can then sit unopened for a long time.
+
+A distribution may contain components for flight functions and resources for
+development, integration, simulation, testing, and operations. Some of these
+parts may already answer questions or solve problems that block the team. Until
+someone explores the package, the people who need those parts may not know they
+exist.
+
+Treat the receipt of a distribution as a trigger for an initial inspection. Have
+someone record:
+
+- What the distribution contains.
+- Its main features and properties.
+- Which parts support the team's current work.
+- Which findings the relevant people need to know about.
+
+This follows the principle of quick exploration: even a basic understanding of
+what you have can unblock progress.
+
+If the team skips this inspection, missing knowledge can create bottlenecks.
+People may keep requesting information or artifacts that the supplier has
+already provided.
 
 ## Documentation
 
