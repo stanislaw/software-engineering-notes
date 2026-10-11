@@ -42,7 +42,7 @@ revising older ideas as my views change.
   - [Exercise sound judgment](#exercise-sound-judgment)
   - [Capture invisible work](#capture-invisible-work)
   - [Be prepared](#be-prepared)
-  - [Be thorough](#be-thorough)
+  - [Be thorough and systematic](#be-thorough-and-systematic)
   - [Be aligned with your supervisor](#be-aligned-with-your-supervisor)
   - [Express critique and be ready to help](#express-critique-and-be-ready-to-help)
   - [Everything explicit. No magic.](#everything-explicit-no-magic)
@@ -651,7 +651,7 @@ Ensure that participants receive well-prepared content. When preparation is done
 properly, everything appears seamless, easy, and concise. Avoid insufficient
 preparation, which leads to confusion, inefficiency, and a poor impression.
 
-### Be thorough
+### Be thorough and systematic
 
 Make the extra effort to find gaps and better solutions. To do this:
 
@@ -660,6 +660,7 @@ Make the extra effort to find gaps and better solutions. To do this:
 - Keep the analysis clear.
 - Identify the critical points that deserve the most attention.
 - Use the project context to decide where to focus your effort.
+- Ensure completeness: work systematically and do not skip steps.
 - Do the analysis in several iterations.
 
 To cover a problem broadly (horizontal thoroughness):
@@ -719,7 +720,7 @@ the critical points, ask:
 
 Use the answers to decide where to investigate more deeply.
 
-Thoroughness also grows from a good understanding of the context. Context helps
+Thoroughness also depends on a good understanding of the context. Context helps
 you recognize which questions matter and what the consequences of your decisions
 may be. To build this understanding:
 
@@ -740,6 +741,44 @@ of the context and of the critical points:
   its limited consequences.
 - Sometimes you must complete the analysis despite the urgency because a rushed
   action could break the system.
+
+Ensure completeness. Work that covers most aspects and steps can still fail
+because of the one aspect or step that nobody examined. Before you finish,
+confirm that the work covers every aspect and step that the problem requires.
+
+Work systematically to achieve completeness. A method makes thoroughness
+repeatable. A method helps you cover all relevant aspects and steps, even under
+time pressure, when you are tired, or when the problem looks familiar. To work
+systematically:
+
+- Follow a method or process that suits the problem. Use an established method
+  when one exists, for example a test plan, a root cause analysis, a review
+  checklist, or a release procedure. If no method exists, define the steps
+  before you start.
+- Make the aspects and steps explicit, for example as a checklist. Mark each
+  item as done, not applicable, or open.
+- Do the steps in order. Do not skip a step because its result seems obvious. If
+  you must skip a step, decide deliberately and record the reason.
+- Complete the steps that support a conclusion before you state the conclusion.
+
+For example, to debug a failure:
+
+1. Reproduce the failure.
+2. Collect the facts.
+3. Form hypotheses.
+4. Test each hypothesis.
+
+If you go directly from the first symptom to a fix, you may fix only the symptom
+and miss the root cause.
+
+Experience tells you which aspects are usually important. Experience tends to
+skip the aspects that are rarely important. A method makes you check the rarely
+important aspects too.
+
+Adapt the method to the problem. If a step does not apply, mark the step as not
+applicable and continue. If the method misses an aspect of the problem, add a
+step. Improve the method after each use, so that the next piece of work starts
+from a better baseline.
 
 Do the analysis in several iterations. You rarely complete non-trivial work in
 one iteration. Use the iterations in one of two ways:
@@ -764,6 +803,8 @@ on the team's knowledge. Before you close the review or activity, ask:
 - Are the artifacts and conclusions clear?
 - Which critical points did the team identify and examine?
 - What relevant context did the team consider?
+- Is the work complete? Did the team follow its method?
+- Which steps did the team skip, and why?
 - Which questions remain open?
 
 Avoid these typical signs of insufficient thoroughness:
@@ -773,6 +814,10 @@ Avoid these typical signs of insufficient thoroughness:
 - Delivering work to its consumer without sufficient documentation.
 - Merging a pull request without considering the aspects that are critical for
   the success and operation of the product.
+- Jumping from a first observation to a conclusion or a fix and skipping the
+  steps between them.
+- Skipping steps of an agreed process, such as a release checklist, because the
+  steps seem routine.
 
 ### Be aligned with your supervisor
 
