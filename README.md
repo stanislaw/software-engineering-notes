@@ -42,6 +42,7 @@ revising older ideas as my views change.
   - [Exercise sound judgment](#exercise-sound-judgment)
   - [Capture invisible work](#capture-invisible-work)
   - [Be prepared](#be-prepared)
+  - [Be thorough](#be-thorough)
   - [Be aligned with your supervisor](#be-aligned-with-your-supervisor)
   - [Express critique and be ready to help](#express-critique-and-be-ready-to-help)
   - [Everything explicit. No magic.](#everything-explicit-no-magic)
@@ -649,6 +650,129 @@ confidently and clearly.
 Ensure that participants receive well-prepared content. When preparation is done
 properly, everything appears seamless, easy, and concise. Avoid insufficient
 preparation, which leads to confusion, inefficiency, and a poor impression.
+
+### Be thorough
+
+Make the extra effort to find gaps and better solutions. To do this:
+
+- Examine a problem broadly enough to cover its relevant aspects.
+- Examine each aspect deeply enough to understand it.
+- Keep the analysis clear.
+- Identify the critical points that deserve the most attention.
+- Use the project context to decide where to focus your effort.
+- Do the analysis in several iterations.
+
+To cover a problem broadly (horizontal thoroughness):
+
+- Identify the aspects that apply to the problem. For hardware/software
+  integration, these aspects can include functionality, reliability, and
+  security. Other domains have their own aspects.
+- Build a broad set of aspects to consider. Learn when each aspect applies.
+
+To examine each aspect deeply (vertical thoroughness):
+
+- Check your assumptions.
+- Continue past the first results.
+- When progress becomes difficult, explore another approach before you stop.
+
+Apply both directions in your work. For example:
+
+- When you test a hardware/software integration, start with smoke tests. Then
+  verify the full required feature set. Examine the other relevant aspects.
+  Identify the interfaces and behaviors that the rest of the system depends on.
+- When you work with a customer, ask questions beyond the immediate request.
+  Understand what the customer wants to achieve. Consider solutions beyond the
+  first obvious option.
+- When you solve a difficult problem, reconsider your assumptions. Explore
+  approaches beyond the ones you usually use.
+
+Do not let depth in one aspect leave gaps in other aspects. For example, someone
+may investigate performance in great detail and overlook user experience. The
+resulting product may run fast and still be difficult to use.
+
+Choose the balance between breadth and depth for each problem. Examining several
+aspects at a modest depth can be more useful than spending too much effort on
+one aspect. Sometimes a broad review finds the main gaps. Sometimes one critical
+aspect needs a deep investigation before the work can proceed.
+
+Involve team members who bring different perspectives and levels of depth. A
+team may know some aspects of a domain well and have little experience with
+others.
+
+Clarity supports thoroughness. To keep the analysis clear:
+
+- Separate the aspects you examine.
+- Remove noise from the analysis.
+- Refine descriptions until the relevant facts, assumptions, and open questions
+  are easy to understand.
+
+Sometimes clarity requires cleaner artifacts. Simplify confusing code, improve
+the structure of a document, or organize test results. Clean artifacts help you
+examine the work and see gaps that unnecessary complexity can hide.
+
+Identify the critical points within each aspect. A critical point determines
+essential behavior or has an important effect on the system as a whole. To find
+the critical points, ask:
+
+- Which details does the system depend on?
+- Where would a change or failure have the greatest impact?
+
+Use the answers to decide where to investigate more deeply.
+
+Thoroughness also grows from a good understanding of the context. Context helps
+you recognize which questions matter and what the consequences of your decisions
+may be. To build this understanding:
+
+- Understand the project's goals and current constraints.
+- Understand the upstream work you depend on and the downstream work that
+  depends on your results.
+- Learn the history of the system, including earlier decisions, trade-offs, and
+  mistakes.
+- Understand how customers and technical teams work together. Know their
+  responsibilities, expectations, and relationships. Learn how these factors
+  affect communication and decisions.
+
+Before an urgent action, such as a merge or a release, decide which analysis can
+wait and which analysis must happen first. Base the decision on your knowledge
+of the context and of the critical points:
+
+- Sometimes you can skip a deep analysis because you understand the action and
+  its limited consequences.
+- Sometimes you must complete the analysis despite the urgency because a rushed
+  action could break the system.
+
+Do the analysis in several iterations. You rarely complete non-trivial work in
+one iteration. Use the iterations in one of two ways:
+
+- Examine one aspect per iteration.
+- Refine one aspect a little more in each iteration.
+
+Continue to iterate until the analysis or the artifact improves substantially.
+For example:
+
+- Re-read a message before you send it.
+- When you review code or documentation, review style and content in separate
+  iterations.
+
+During a review or another activity, the team eventually reaches a point where
+nobody can add anything meaningful. Then the work proceeds: the team approves a
+pull request or marks a milestone as complete. The stopping point depends partly
+on the team's knowledge. Before you close the review or activity, ask:
+
+- Which aspects did the team examine?
+- How deeply did the team examine each aspect?
+- Are the artifacts and conclusions clear?
+- Which critical points did the team identify and examine?
+- What relevant context did the team consider?
+- Which questions remain open?
+
+Avoid these typical signs of insufficient thoroughness:
+
+- Delivering work after a superficial smoke test, without deeper verification
+  checks.
+- Delivering work to its consumer without sufficient documentation.
+- Merging a pull request without considering the aspects that are critical for
+  the success and operation of the product.
 
 ### Be aligned with your supervisor
 
@@ -2926,7 +3050,8 @@ great option, as these languages integrate well with embedded environments.
 
 ### Make good use of distributions
 
-When you receive someone else's distribution, inspect its contents promptly. Record:
+When you receive someone else's distribution, inspect its contents promptly.
+Record:
 
 - what the distribution contains
 - its main features and properties
