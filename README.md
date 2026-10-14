@@ -594,41 +594,46 @@ certain amount of personal courage.
 
 ### Capture invisible work
 
-Capture invisible work products in documentation or development artifacts such
-as code, requirements, diagrams, or tests. Invisible work includes all the
-effort required to produce the final visible result. Often, the amount of
-invisible work is much greater than what is ultimately delivered.
+Capture the results of invisible work in documentation or in development
+artifacts, such as code, requirements, diagrams, or tests. Invisible work is all
+the effort that you spend to produce the final visible result. Often, the
+invisible work is much larger than the visible result.
 
-Recognize invisible work and select an appropriate medium to document it, so
-colleagues can follow how your solution evolved. The goal is to make your
-reasoning and investigation traceable, not just the final outcome, and to
-preserve the knowledge gained during execution.
+Recognize invisible work and select a suitable medium to document it. Colleagues
+can then follow how your solution evolved. Make your reasoning and investigation
+traceable, not only the final outcome. Preserve the knowledge that you gain
+during the work.
 
-Ideally, documentation should be proportional to the size and complexity of BOTH
-the visible and invisible parts of the work, not only to the size of the visible
-change. Another important dimension is the cost of the invisible work. If an
-employer or stakeholder pays for several days of investigation and learning,
-this effort should be reflected in the project artifacts.
+Ideally, make the documentation proportional to the size and complexity of BOTH
+the visible and the invisible parts of the work. Do not scale the documentation
+only to the size of the visible change.
+
+The cost of the invisible work is another important dimension. If an employer or
+stakeholder pays for several days of investigation and learning, the project
+artifacts should reflect that effort.
 
 Example:
 
-A developer spends three days fixing a bug but changes only one line of code.
-The changeset does not provide a clear trace of the investigation, root cause,
-or conditions that allowed the bug to exist.
+A developer spends three days to fix a bug but changes only one line of code.
+The changeset gives no clear trace of:
 
-When the principle of documenting invisible work is applied, even a small code
-change can represent significant effort and learning and should be recorded,
-even in a short, precise statement.
+- the investigation
+- the root cause
+- the conditions that allowed the bug to exist.
+
+When you document invisible work, even a small code change can represent
+significant effort and learning. Record that effort and learning, even if only
+in a short, precise statement.
 
 Bugs often arise from subtle coupling between parts of the system, for example
-through timing, shared state, or implicit assumptions. If uncovering the fix
-required identifying such coupling, this insight must be documented, not just
-the code change.
+through timing, shared state, or implicit assumptions. If the fix required you
+to identify such coupling, document the coupling, not only the code change.
 
 At a minimum, every bug fix should include an automated test that reproduces the
-issue and prevents regression. In many cases, a brief explanation in the code,
-documentation, commit message, or issue tracker is also necessary to preserve
-the knowledge gained.
+bug and prevents regression. In many cases, also add a brief explanation to
+preserve the knowledge that you gained. Always put the explanation in the code.
+Depending on the type of bug, the documentation, the commit message, or the
+issue tracker are also likely to need the explanation.
 
 ### Be prepared
 
